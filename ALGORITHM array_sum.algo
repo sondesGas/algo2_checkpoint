@@ -2,11 +2,10 @@ ALGORITHM array_sum
 VAR
     set1,set2:ARRAY_OF INTEGER[7];
     i,j:INTEGER;
-    sum:=INTEGER:=0;
+    sum:INTEGER:=0;
 BEGIN
    set1:={5,2,0,7,9,6};
-   set2{5,9,1,6,10} ;
-    Write('Print Array :')
+   set2:={5,9,1,6,3};
     FOR i FROM 0 TO set1.length-1 STEP 1  DO
         FOR j FROM 0 TO set2.length-1 STEP 1 DO
          IF (set1[i]=set2[j]) THEN
